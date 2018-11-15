@@ -1,3 +1,11 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+const prefix = 'fff';
+client.on('ready', () => {
+client.user.setGame(`Type : fffplay`,"http://twitch.tv/y04zgamer")
+    client.user.setStatus("dnd")
+  console.log(`Logged in as ${client.user.tag}!`);
+});
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4"; //NourEldien Kfo
  
 const GOOGLE_API_KEY = 'AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8';
